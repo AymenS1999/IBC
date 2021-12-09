@@ -29,11 +29,11 @@ body{
 
 /*Nav Bar*/
 .navbar{
-	padding: 0.3rem 1rem;
+	padding: 1rem;
 	padding-left: 2rem;
-	background-color: #0a1122;
-	/*background-color: rgba(10, 17, 34, 0.9);*/
+	background-color: #fffdd0;
 	text-align: left;
+	border-bottom: 5px solid #ffcc00;
 }
 
 .navbar-logo{
@@ -43,8 +43,8 @@ body{
 }
 
 .navbar-brand{
-	/*font-family: 'Rakkas', serif;*/
 	font-family: 'Sarpanch', sans-serif;
+	color: #0a1122;
 }
 
 .nav-item{
@@ -58,6 +58,14 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #ffcc00;
 }
+
+.nav-link .selected{
+	background-color: #ffcc00;
+	color: #0a1122;
+	padding: 1.8rem;
+	transition: 1s;
+}
+
 .navbar-toggler{
 	border-left-width: 0px;
     border-top-width: 0px;
@@ -81,7 +89,7 @@ button.navbar-toggler:focus{
     padding-left: 4rem !important;
     padding-right: 4rem !important;
     min-height: 45px !important;
-    background-color: rgba(10, 17, 34, 0.9);
+    background-color: rgba(255, 253, 208, 0.9);
 }
 
  .shrink .nav-link {
@@ -89,6 +97,10 @@ button.navbar-toggler:focus{
     padding-bottom: 0 !important;       
 }
 
+.shrink .nav-link .selected{
+	padding-bottom: 0.8rem !important;
+	transition: 1s;
+}
 
 
 .gold-text{
