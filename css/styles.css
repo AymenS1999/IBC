@@ -373,7 +373,7 @@ button.navbar-toggler:focus{
 
 .product-carousel-text{
 	font-size: 2rem;
-	text-align: center;
+	text-align: left;
 	font-weight: 900;
 	position: relative;
 	top: 50%;
