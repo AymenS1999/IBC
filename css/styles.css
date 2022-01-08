@@ -31,9 +31,10 @@ body{
 .navbar{
 	padding: 1rem;
 	padding-left: 2rem;
-	background-color: #fffdd0;
+	background: url('../images/navbar-background.jpg');
+	background-size: cover;
 	text-align: left;
-	border-bottom: 5px solid #ffcc00;
+	border-bottom: 5px solid #bb8c00;
 }
 
 .navbar-logo{
@@ -43,7 +44,7 @@ body{
 }
 
 .navbar-brand{
-	font-family: 'Sarpanch', sans-serif;
+	font-family: 'Anton', sans-serif;
 	color: #0a1122;
 }
 
@@ -51,26 +52,30 @@ body{
 	padding: 0 18px;
 }
 
+.navbar-light .navbar-nav .nav-link{
+	color: #1b2233;
+}
+
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ffcc00;
+    color: #bb8c00;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffcc00;
+	color: #bb8c00;
 }
 
 .nav-link .selected{
-	background-color: #ffcc00;
-	color: #0a1122;
+	background-color: #bb8c00;
+	color: #fff;
 	padding: 1.8rem;
 	transition: 1s;
 }
 
 .navbar-toggler{
 	border-left-width: 0px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
+    	border-top-width: 0px;
+    	border-right-width: 0px;
+    	border-bottom-width: 0px;
 }
 button.navbar-toggler:focus{
 	outline: none;
@@ -89,7 +94,6 @@ button.navbar-toggler:focus{
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     min-height: 45px !important;
-    background-color: rgba(255, 253, 208, 0.9);
 }
 
  .shrink .nav-link {
@@ -104,9 +108,7 @@ button.navbar-toggler:focus{
 
 
 .gold-text{
-	color: #ddaa00;
-	/*color: #cbaa00;*/
-	/*color: #ffcc00;*/
+	color: #bb8c00;
 }
 
 
@@ -132,18 +134,16 @@ button.navbar-toggler:focus{
 }
 
 .dropdown-item{
-	text-align: center;
+	text-align: left;
 }
 
 .dropdown-item:hover{
 	color: #fff;
-	/*background-color: rgba(11,37,53,1);*/
-	/*background-color: #bb8c00;*/
-	background-color: #dd9900;
+	background-color: #bb8c00;
 }
 
 .dropdown-item:active{
-	background-color: #dd9900;	
+	background-color: #bb8c00;	
 }
 
 #about-us-menu.dropdown-menu{
@@ -180,17 +180,19 @@ button.navbar-toggler:focus{
 
 .intro-foreground{
 	position: relative;
+	right: 2rem;
 	height: 100vh;
 }
 
 .intro-tagline{
-	position: relative;
+	position: absolute;
 	top: 53%;
 	transform: translateY(-50%);
 	font-size: 3rem;
 	padding: 3.5rem;
 	font-weight: 700;
-	color: #fff;
+	background: linear-gradient(to right, rgba(190,190,190,1), rgba(190, 190, 190, 0.7));
+	color: rgba(10,33,50,1);
 }
 
 .intro-background{
@@ -208,7 +210,7 @@ button.navbar-toggler:focus{
 	font-family: 'Rakkas', serif;
 	font-weight: 300;
 	text-align: center;
-	color: #dadada;
+	color: #fff;
 }
 
 .intro-background .carousel-item{
@@ -246,56 +248,66 @@ button.navbar-toggler:focus{
 }
 
 .intro-carousel-item-1{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/industrial_procurement.jpg");
+	/*background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/industrial_procurement.jpg");*/
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/industrial_procurement.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-2{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/industry_automation.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/industry_automation.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-3{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/oil_and_gas.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/oil_and_gas.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-4{
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/petrochemical.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/petrochemical.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-5{
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/power_sector.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.2)), url("../images/power_sector.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-6{
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/communications_industry.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/communications_industry.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-7{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/infrastructure_development.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/infrastructure_development.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-8{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/fire_safety.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/fire_safety.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
 .intro-carousel-item-9{ 
-	background: linear-gradient(to left, rgba(10,33,50,0.4), rgba(10,33,50,1)), url("../images/mechanical_electrical_and_civil.jpg");
+	background: linear-gradient(to left, rgba(187,140,0,0.4), rgba(187,140,0,0.1)), url("../images/mechanical_electrical_and_civil.jpg");
 	background-size: cover;
+	background-position: center;
 }
 
 
@@ -339,21 +351,18 @@ button.navbar-toggler:focus{
 }
 
 #about-us-button{
-	background-color: rgba(11,37,53,1);
-	/*background-color: #bb8c00;*/
+	background-color: #bb8c00;
 	color: #fff;
 	transition: 0.5s;
 	border-radius: 0;
+	border-color: rgba(0, 0, 0, 0);
 	font-size: 1rem;
 }
 
 #about-us-button:hover{
-	/*background-color: #eba200;*/
-	/*background-color: #0a2655;*/
-	background-color: #dd9900;
+	background-color: #eba200;
 	letter-spacing: 2px;
 	transition: .5s;
-	/*background-color: rgba(11,37,53,1);*/
 }
 
 
@@ -378,6 +387,10 @@ button.navbar-toggler:focus{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+h2 .product-carousel-text{
+	text-align: center;
 }
 
 .carousel .table{
@@ -698,10 +711,6 @@ hr#about-us-divider{
 	height: 650px;
 }
 
-.highlight{
-	color: #0a2655;
-}
-
 .content-box .logo{
 	position: relative;
 	min-width: 50%;
@@ -739,7 +748,7 @@ hr#about-us-divider{
 }
 
 .text li::marker{
-	color: #ddaa00;
+	color: #bb8c00;
 }
 
 
@@ -971,122 +980,6 @@ hr#about-us-divider{
 	margin: 1rem;
 }
 
-/*NAQSH*/
-/*#naqsh{
-	background-color: #fff;
-	height: 40rem;
-	height: 100%;
-	width: 100%;
-	padding-top: 2rem; 
-}
-
-#naqsh-cover{
-	height: 100%;
-	padding: 2rem 2rem 4rem 4rem;
-}
-.naqsh-cover-text{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.naqsh-cover-text p, .naqsh-cover-text h1{
-	margin-bottom: 0; 
-}
-
-.naqsh-cover-text h1{
-	font-size: 6.5rem;
-	color: #431e0c;
-	font-weight: 700;
-}
-
-.naqsh-cover-text .intro-text{
-	color: #f00;
-	font-style: italic;
-}
-
-.naqsh-cover-text .subheading{
-	text-align: right;
-	font-weight: bold;
-}
-
-#naqsh-button{
-	text-align: left;
-	padding-top: 1rem;
-}
-#naqsh-button .btn-outline-dark:hover{
-	background-color: #734e3c;
-}
-
-#naqsh-cover img{
-	height: 15rem;
-	width: 100%;
-	padding: 0.5rem;
-}
-
-.grow img{
-	transition: 1s ease;
-}
-
-.grow img:hover{
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-	transition: 1s ease;
-	position: relative;
-	z-index: 2;
-}
-
-.naqsh-img-text-above{
-	padding-top: 1rem;
-	padding-bottom: 8px;
-}
-
-.naqsh-img-text-below{
-	padding-top: 8px;
-	padding-bottom: 1rem; 
-}
-
-.naqsh-img-text-left{
-	text-align: left;
-}
-
-.naqsh-img-text-right{
-	text-align: right;
-}
-
-#naqsh-body{
-	background-color: #431e0c;
-	color: #fff;
-	padding: 2rem 4rem;
-	line-height: 1.8;
-}
-
-.about-naqsh{
-	padding: 2rem 4rem 2rem 1rem;
-}
-.naqsh-products{
-	padding: 2rem 1rem 2rem 8rem;
-}
-.naqsh-services{
-	padding: 2rem 5rem 2rem 2rem;
-}
-.naqsh-products ul, .naqsh-services ul{
-	list-style-type: none;
-	padding-left: 0.5rem;
-}
-
-.naqsh-products a, .naqsh-services a{
-	color: #aaa;
-	text-decoration: none;
-}
-
-.naqsh-products a:hover, .naqsh-services a:hover{
-	color: #fff;
-	font-weight: bold;
-}
-*/
-
 
 /*Partners*/
 #partners{
@@ -1206,7 +1099,8 @@ footer{
 	width: 100%;
 	height: auto;
 	color: #fff;
-	background: #0a1122;
+	background: url('../images/navbar-background.jpg');
+	background-size: cover;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -1232,7 +1126,7 @@ footer{
 #footer .footer-container h2{
 	font-family: 'Rakkas', serif;
 	position: relative;
-	color: #fff;
+	color: #000;
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
@@ -1295,7 +1189,6 @@ footer{
 
 
 .contactus{
-	/*width: calc(35% - 60px);*/
 	width: 30%;
 	padding: 0.5rem;
 	margin-right: 0 !important;
@@ -1309,17 +1202,17 @@ footer{
 .contactus .info li{
 	display: flex;
 	margin-bottom: 1rem;
-	color: #999;
+	color: #000;
 }
 
 .contactus .info li span{
-	color: #999;
+	color: #774800;
 	font-size: 1.3rem;
 	margin-right: 10px
 }
 
 .contactus .info li a{
-	color: #999;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -1354,7 +1247,7 @@ footer{
 /*COPYRIGHT TEXT*/
 .copyrightText{
 	width: 100%;
-	background: #bb8c00;
+	background: #774800;
 	padding: 5px;
 }
 
@@ -1487,30 +1380,6 @@ footer{
 		font-size: 1.5rem;
 		text-align: center;
 	}
-	/*.naqsh-cover-text .subheading, #naqsh-button, #naqsh-button a{
-		text-align: center;
-		font-size: 2rem
-	}
-	.naqsh-img-text-left, .naqsh-img-text-right {
-		text-align: left;
-		font-size: 2rem;
-	}
-	.naqsh-body{
-		text-align: center;
-	}
-	.about-naqsh{
-		font-size: 2rem;
-	}
-	.naqsh-products, .naqsh-services{
-		padding: 0;
-	}
-	.naqsh-products h2, .naqsh-services h2{
-		font-size: 3rem;
-	}
-	.naqsh-products ul, .naqsh-services ul{
-		padding-left: 0;
-		font-size: 1.5rem;
-	}*/
 	.contact-us-icon{
 		font-size: 6rem;
 	}
