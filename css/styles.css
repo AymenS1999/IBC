@@ -205,7 +205,7 @@ button.navbar-toggler:focus{
 .intro-background-heading{
 	position: relative;
 	top: 50%;
-	left: 10%;
+	left: 25%;
 	font-size: 1.8rem;
 	font-family: 'Rakkas', serif;
 	font-weight: 300;
@@ -1142,7 +1142,7 @@ footer{
 }
 
 #footer .footer-container .sec.about-us p{
-	color: #999;
+	color: #000;
 }
 
 
