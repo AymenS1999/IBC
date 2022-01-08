@@ -1269,15 +1269,15 @@ footer{
 		text-align: center;
 	}
 	.navbar-brand{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	.navbar{
 		padding: 0.3rem 3rem;
 		padding-left: 2rem;
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	.navbar-toggler, .nav-link{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	.dropdown-button{
 		padding-left: 1rem;
@@ -1291,7 +1291,7 @@ footer{
 	}
 	.dropdown-item{
 		text-align: center;
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 
 	.intro-tagline{
@@ -1315,14 +1315,14 @@ footer{
 		height: 25rem;
 	}
 	.owner-image-text{
-		font-size: 1.5rem;
+/* 		font-size: 1.5rem; */
 	}
 	.about-us-text{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 		text-align: justify;
 	}
 	#about-us-button{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	.about .content-box{
 		width: 100%;
@@ -1332,17 +1332,17 @@ footer{
 		padding-bottom: 4rem;
 	}
 	.about h2, .about p{
-		font-size: 3rem;
+/* 		font-size: 3rem; */
 	}
 	.text{
 		text-align: justify;
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#partners h1, #certifications h1{
-		font-size: 4rem;
+/* 		font-size: 4rem; */
 	}
 	.partner-img p{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#utilities form{
 		padding: 0;
@@ -1366,41 +1366,41 @@ footer{
 		height: 100rem;
 	}
 	#our-products-accordion h1, #our-services-accordion h1{
-		font-size: 3rem;
+/* 		font-size: 3rem; */
 	}
 	.accordion td{
 		padding: 0.5rem 1rem;
 		text-align: center;
 	}
 	.accordion button{
-		font-size: 1.5rem;
+/* 		font-size: 1.5rem; */
 		text-align: center;
 	}
 	td{
-		font-size: 1.5rem;
+/* 		font-size: 1.5rem; */
 		text-align: center;
 	}
 	.contact-us-icon{
-		font-size: 6rem;
+/* 		font-size: 6rem; */
 	}
 	.contact-us-headline{
-		font-size: 3rem;
+/* 		font-size: 3rem; */
 	}
 	.contact-us-detail{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#cta form{
 		padding: 2rem;
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#cta h2{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#cta .submit-button{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	.form-note h6{
-		font-size: 1.5rem;
+/* 		font-size: 1.5rem; */
 	}
 	#footer{
 		padding: 2.5rem;
@@ -1413,7 +1413,7 @@ footer{
 		margin-bottom: 2.5rem;
 	}
 	#footer h2{
-		font-size: 2rem;
+/* 		font-size: 2rem; */
 	}
 	#footer .sec.about-us{
 		display: none;
@@ -1422,7 +1422,7 @@ footer{
 		display: block;
 		width: 100%;
 		text-align: center;
-		font-size: 1.5rem;
+/* 		font-size: 1.5rem; */
 	}
 	#footer .footer-container h2::before{
 		left: 50%;
@@ -1434,10 +1434,10 @@ footer{
 		list-style: none;
 	}
 	#footer .form-control{
-		font-size: 1.8rem;
+/* 		font-size: 1.8rem; */
 	}
 	#footer textarea{
-		font-size: 1.8rem;
+/* 		font-size: 1.8rem; */
 	}
 
 }
