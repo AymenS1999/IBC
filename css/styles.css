@@ -30,8 +30,7 @@ body{
 
 /*Nav Bar*/
 .navbar{
-	padding: 1rem;
-	padding-left: 2rem;
+	padding: 0.5rem;
 	background: url('../images/navbar-background.jpg');
 	background-size: cover;
 	text-align: left;
@@ -39,7 +38,7 @@ body{
 }
 
 .navbar-logo{
-	width: 12%;
+	height: 5rem;
 	margin-right: .5rem;  
 	border-radius: 100%;
 }
@@ -49,12 +48,22 @@ body{
 	color: #0a1122;
 }
 
+.lg-device{
+	display: inline-block;
+	width: 20rem;
+}
+
+.sm-device{
+	display: none;
+}
+
 .nav-item{
 	padding: 0 18px;
 }
 
 .navbar-light .navbar-nav .nav-link{
 	color: #1b2233;
+	padding: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -84,16 +93,16 @@ button.navbar-toggler:focus{
 
 /*To Shrink the navbar on scroll*/
 .primary-nav {
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
  }
 
 .shrink {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
     min-height: 45px !important;
 }
 
@@ -103,8 +112,8 @@ button.navbar-toggler:focus{
 }
 
 .shrink .nav-link .selected{
-	padding-bottom: 0.8rem !important;
-	transition: 1s;
+	padding-bottom: 2.3rem !important;
+	transition: 0.6s;
 }
 
 
@@ -208,7 +217,7 @@ button.navbar-toggler:focus{
 	top: 50%;
 	left: 25%;
 	font-size: 1.8rem;
-	font-family: 'Rakkas', serif;
+	font-family: 'Anton', serif;
 	font-weight: 300;
 	text-align: center;
 	color: #fff;
@@ -1030,7 +1039,7 @@ hr#about-us-divider{
 }
 #certifications h1{
 	text-align: center;
-	font-family: 'Rakkas', serif;
+	font-family: 'Anton', serif;
 }
 
 .certification-img img{
@@ -1125,7 +1134,7 @@ footer{
 }
 
 #footer .footer-container h2{
-	font-family: 'Rakkas', serif;
+	font-family: 'Anton', serif;
 	position: relative;
 	color: #000;
 	font-weight: 500;
@@ -1270,6 +1279,12 @@ footer{
 	.navbar-brand{
 /* 		font-size: 2rem; */
 	}
+	.lg-device{
+		display: none;
+	}
+	.sm-device{
+		display: inline-block;
+	}
 	.navbar{
 		padding: 0.3rem 3rem;
 		padding-left: 2rem;
@@ -1277,6 +1292,12 @@ footer{
 	}
 	.navbar-toggler, .nav-link{
 /* 		font-size: 2rem; */
+	}
+	.nav-link .selected{
+		padding: 0.5rem;
+	}
+	.shrink .nav-link .selected{
+		padding: 0.5rem 35%;
 	}
 	.dropdown-button{
 		padding-left: 1rem;
