@@ -67,11 +67,11 @@ body{
 	padding: 0;
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active {
     color: #bb8c00;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover{
 	color: #bb8c00;
 }
 
