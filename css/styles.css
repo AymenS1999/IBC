@@ -30,8 +30,7 @@ body{
 
 /*Nav Bar*/
 .navbar{
-	padding: 0.5rem;
-	background: url('../images/navbar-background.jpg');
+	background-color: #eee;
 	background-size: cover;
 	text-align: left;
 	border-bottom: 5px solid #bb8c00;
