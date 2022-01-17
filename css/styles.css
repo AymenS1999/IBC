@@ -770,9 +770,9 @@ hr#about-us-divider{
 /*Utilities Page*/
 #utilities{
 	margin-top: 6rem;
-	/*background-color: rgba(1,27,57,1);*/
-	/*background-color: #021d3c7a;*/
-	background-color: #ddd;
+	background: url('../images/light_grey_bg.jpg');
+	background-position: center;
+	background-size: cover;
 	padding: 2rem 2rem 3rem;
 }
 
