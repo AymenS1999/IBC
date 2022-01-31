@@ -1050,15 +1050,6 @@ hr#about-us-divider{
 	height: 11rem;
 	width: 90%;
 	padding: 1.2rem;
-	opacity: 1;
-}
-.cert-text{
-	position: relative;
-	top: -25%;
-	color: #fff;
-  	font-size: 1.2rem;
-  	text-align: center;
-	transition: .3s ease-in-out;
 }
 .cert-text-box{
 	transition: .5s ease;
@@ -1075,7 +1066,16 @@ hr#about-us-divider{
   	text-align: center;
   	cursor: default;
 }
-.certification-img img:hover .cert-text-box{
+.cert-text{
+	position: relative;
+	top: -25%;
+	color: #fff;
+  	font-size: 1.2rem;
+  	text-align: center;
+	transition: .3s ease-in-out;
+}
+
+.certification-img:hover .cert-text-box{
 	opacity: 0.9;
 }
 .certification-img:hover .cert-text{
