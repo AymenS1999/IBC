@@ -1033,91 +1033,41 @@ hr#about-us-divider{
 #certifications{
 	position: relative;
 	margin: 0;
-	padding: 5rem 3rem;
+	padding: 3rem;
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	min-height: 35rem;
 }
 #certifications h1{
 	text-align: center;
 	font-family: 'Anton', serif;
+	padding-bottom: 2rem;
 }
 
 .certification-img img{
-	height: 350px;
-	width: 350px;
-	padding: 2rem;
+	height: 11rem;
+	width: 90%;
+	padding: 1.2rem;
 	opacity: 1;
 }
-.certification-img img:hover{
-	opacity: 0.8;
-}
-
-.certs{
-	min-height: 40rem;
+.cert-text{
 	position: relative;
+	top: -25%;
+	color: #fff;
+  	font-size: 1.2rem;
+  	text-align: center;
+	transition: .3s ease-in-out;
 }
-.cert-icons{
-	position: absolute;
-	width: 9rem;
-	height: 9rem;
-	border-radius: 50%;
-	transition:  all ease 0.5s;
-	backface-visibility: hidden;
-}
-
-.cert-icons img{
-	width: 100%;
-	height: 100%;
-}
-
-/*From anticlockwise with 5 being exception */
-.cert-icons:nth-child(1){
-	top: 1rem;
-	left: 55rem;
-}
-.cert-icons:nth-child(2){
-	top: 2rem;
-	left: 40rem;
-}
-.cert-icons:nth-child(3){
-	top: 2rem;
-	left: 25rem;
-}
-.cert-icons:nth-child(4){
-	top: 4rem;
-	left: 10rem;
-}
-.cert-icons:nth-child(5){
-	top: 13rem;
-	left: 22rem;
-}
-/*Since Saudi Aramco has Grey bg*/
-.cert-icons:nth-child(5) img{	
-	border-radius: 50%;
-}
-.cert-icons:nth-child(6){
-	top: 15rem;
-	left: 5rem;
-}
-.cert-icons:nth-child(7){
-	top: 25rem;
-	left: 15rem;
-}
-.cert-icons:nth-child(8){
-	top: 22rem;
-	left: 35rem;
-}
-.cert-icons .cert-text-box{
+.cert-text-box{
 	transition: .5s ease;
   	opacity: 0;
   	position: absolute;
   	top: 50%;
   	left: 50%;
-  	height: 12rem;
-  	width: 12rem;
-  	border-radius: 50%;
+  	height: 90%;
+  	width: 90%;
 	background: #bb8c00;
 	color: #fff;
 	transform: translate(-50%, -50%);
@@ -1125,34 +1075,13 @@ hr#about-us-divider{
   	text-align: center;
   	cursor: default;
 }
-
-
-.cert-icons:hover .cert-text-box{
+.certification-img img:hover .cert-text-box{
 	opacity: 0.9;
 }
-
-.cert-text{
-	position: relative;
-	top: 25%;
-	color: #fff;
-  	font-size: 1.5rem;
-  	text-align: center;
+.certification-img:hover .cert-text{
+	top: 30%;
+	transition: .3s ease-in;
 }
-
-
-.certs-logo{
-	position: absolute;
-	right: 7rem;
-	top: 10rem;
-	width: 22rem;
-	height: 22rem;
-	border-radius: 50%;
-}
-.certs-logo img{
-	border-radius: 50%;
-	width: 100%;
-}
-
 
 
 /*Contact Us*/
@@ -1380,12 +1309,6 @@ footer{
 	.navbar-brand{
 /* 		font-size: 2rem; */
 	}
-	.lg-device{
-		display: none;
-	}
-	.sm-device{
-		display: inline-block;
-	}
 	.navbar{
 		padding: 0.3rem 3rem;
 		padding-left: 2rem;
@@ -1565,7 +1488,14 @@ footer{
 
 }
 
-
+@media (max-width: 1288px){
+	.lg-device{
+		display: none;
+	}
+	.sm-device{
+		display: inline-block;
+	}
+}
 
 /*To TRIIGER DROPDOWN on HOVER (ONLY ON DESKTOPS)*/
 @media all and (min-width: 992px) {
