@@ -38,8 +38,12 @@ body{
 
 .navbar-logo{
 	height: 5rem;
-	margin-right: .5rem;  
-	border-radius: 100%;
+	margin-right: .5rem;
+}
+.navbar-logo-text{
+	height: 5rem;
+	margin-right: .5rem;
+	width: 90%;
 }
 
 .navbar-brand{
