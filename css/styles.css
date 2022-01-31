@@ -30,7 +30,7 @@ body{
 
 /*Nav Bar*/
 .navbar{
-	background-color: #eee;
+	background-color: #fff;
 	background-size: cover;
 	text-align: left;
 	border-bottom: 5px solid #bb8c00;
@@ -50,11 +50,11 @@ body{
 
 .lg-device{
 	display: inline-block;
-	width: 20rem;
 }
 
 .sm-device{
 	display: none;
+	margin-left: 1rem;
 }
 
 .nav-item{
@@ -1486,15 +1486,6 @@ footer{
 /* 		font-size: 1.8rem; */
 	}
 
-}
-
-@media (max-width: 1288px){
-	.lg-device{
-		display: none;
-	}
-	.sm-device{
-		display: inline-block;
-	}
 }
 
 /*To TRIIGER DROPDOWN on HOVER (ONLY ON DESKTOPS)*/
